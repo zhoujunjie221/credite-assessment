@@ -15,1578 +15,1578 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
   const heartily = [
     {
-        "page": "Personal Information",
-        "option": [
+        "dananow-page": "Personal Information",
+        "dananow-content": [
             {
-                "title": "Full Name",
-                "type": "string",
+                "dananow-title": "Full Name",
+                "dananow-type": "string",
                 "format": "^.{0,256}$"
             },
             {
-                "title": "Age",
-                "type": "number",
+                "dananow-title": "Age",
+                "dananow-type": "number",
                 "format": "^(?:[1-9]|[1-9][0-9]|100)$"
             },
             {
-                "title": "Gender",
-                "type": "option",
-                "options": [
+                "dananow-title": "Gender",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Male",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Male",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Female",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Female",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Other",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Other",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Unwilling to provide",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Unwilling to provide",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     }
                 ]
             },
             {
-                "title": "Country / Region",
-                "type": "option",
-                "options": [
+                "dananow-title": "Country / Region",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Albania",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Albania",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Algeria",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Algeria",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Angola",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Angola",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Anguilla",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Anguilla",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Argentina",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Argentina",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Armenia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Armenia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Aruba",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Aruba",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Australia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Australia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Austria",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Austria",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Azerbaijan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Azerbaijan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bahamas",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bahamas",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bahrain",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bahrain",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bangladesh",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bangladesh",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Barbados",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Barbados",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Belarus",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Belarus",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Belgium",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Belgium",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Belize",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Belize",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Benin",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Benin",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bermuda",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bermuda",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bhutan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bhutan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bolivia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bolivia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bosnia and Herzegovina",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bosnia and Herzegovina",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Botswana",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Botswana",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Brazil",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Brazil",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Brunei Darussalam",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Brunei Darussalam",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Bulgaria",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Bulgaria",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Burkina Faso",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Burkina Faso",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Burundi",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Burundi",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cambodia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cambodia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cameroon",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cameroon",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Canada",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Canada",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cape Verde",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cape Verde",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cayman Islands",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cayman Islands",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Central African Rep",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Central African Rep",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Chad",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Chad",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Chile",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Chile",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "China (People's Rep)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "China (People's Rep)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Colombia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Colombia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Congo(Rep)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Congo(Rep)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cook Islands",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cook Islands",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Costa Rica",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Costa Rica",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cote d'Ivoire (Rep)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cote d'Ivoire (Rep)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Croatia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Croatia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Cyprus",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Cyprus",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Czech (Rep)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Czech (Rep)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Dem Rep of Congo",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Dem Rep of Congo",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Denmark",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Denmark",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Dominica (Commonwealth of)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Dominica (Commonwealth of)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Dominican Rep.",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Dominican Rep.",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Ecuador",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Ecuador",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Egypt",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Egypt",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "El Salvador",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "El Salvador",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Eritrea",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Eritrea",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Estonia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Estonia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Ethiopia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Ethiopia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Fiji",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Fiji",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Finland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Finland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "France",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "France",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "French Polynesia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "French Polynesia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Gabon",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Gabon",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Georgia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Georgia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Germany",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Germany",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Ghana",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Ghana",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Gibraltar",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Gibraltar",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Greece",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Greece",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Grenada",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Grenada",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Guatemala",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Guatemala",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Guinea",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Guinea",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Guyana",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Guyana",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Haiti",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Haiti",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Honduras",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Honduras",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Hong Kong",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Hong Kong",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Hungary",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Hungary",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Iceland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Iceland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "India",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "India",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Indonesia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Indonesia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Iran",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Iran",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Iraq",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Iraq",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Ireland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Ireland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Israel",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Israel",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Italy",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Italy",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Jamaica",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Jamaica",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Japan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Japan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Jordan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Jordan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Kenya",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Kenya",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Korea (Rep)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Korea (Rep)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Kuwait",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Kuwait",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Lao People's Dem Rep",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Lao People's Dem Rep",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Latvia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Latvia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Lesotho",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Lesotho",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Luxembourg",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Luxembourg",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Macao",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Macao",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Macedonia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Macedonia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Madagascar",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Madagascar",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Malawi",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Malawi",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Malaysia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Malaysia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Maldives",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Maldives",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Mali",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Mali",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Malta",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Malta",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Mauritania",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Mauritania",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Mauritius",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Mauritius",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Mexico",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Mexico",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Moldova",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Moldova",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Mongolia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Mongolia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Morocco",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Morocco",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Myanmar",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Myanmar",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Namibia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Namibia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Nauru",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Nauru",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Nepal",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Nepal",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Netherlands",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Netherlands",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "New Caledonia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "New Caledonia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "New Zealand",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "New Zealand",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Niger",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Niger",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Nigeria",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Nigeria",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Norway",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Norway",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Oman",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Oman",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Pakistan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Pakistan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Panama",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Panama",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Papua New Guinea",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Papua New Guinea",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Paraguay",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Paraguay",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Peru",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Peru",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Philippines",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Philippines",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Poland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Poland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Portugal",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Portugal",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Qatar",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Qatar",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Romania",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Romania",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Russian Federation",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Russian Federation",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Rwanda",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Rwanda",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Saint Christopher (St. Kitts) and Nevis",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Saint Christopher (St. Kitts) and Nevis",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Saint Lucia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Saint Lucia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Saint Vincent and the Grenadines",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Saint Vincent and the Grenadines",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Sao Tome and Principe",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Sao Tome and Principe",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Saudi Arabia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Saudi Arabia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Senegal",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Senegal",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Seychelles",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Seychelles",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Sierra Leone",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Sierra Leone",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Singapore",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Singapore",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Slovakia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Slovakia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Slovenia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Slovenia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Solomon Islands",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Solomon Islands",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Somalia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Somalia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "South Africa",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "South Africa",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Spain",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Spain",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Sri Lanka",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Sri Lanka",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Sudan",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Sudan",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Suriname",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Suriname",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Swaziland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Swaziland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Sweden",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Sweden",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Switzerland",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Switzerland",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Syrian Arab Rep",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Syrian Arab Rep",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Tanzania",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Tanzania",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Thailand",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Thailand",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Togo",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Togo",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Trinidad and Tobago",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Trinidad and Tobago",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Tunisia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Tunisia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Turkey",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Turkey",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Uganda",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Uganda",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Ukraine",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Ukraine",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "United Arab Emirates",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "United Arab Emirates",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "United Kingdom",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "United Kingdom",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "United States of America",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "United States of America",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Uruguay",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Uruguay",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Venezuela",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Venezuela",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Viet Nam",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Viet Nam",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Western Samoa",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Western Samoa",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Yemen",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yemen",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Yugoslavia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yugoslavia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Zambia",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Zambia",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Zimbabwe",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Zimbabwe",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     }
                 ]
             }
         ]
     },
     {
-        "page": "Employment Information",
-        "option": [
+        "dananow-page": "Employment Information",
+        "dananow-content": [
             {
-                "title": "Employment Status",
-                "type": "option",
-                "options": [
+                "dananow-title": "Employment Status",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Full-time",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Full-time",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Part-time",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Part-time",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Self-employed",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "Self-employed",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "Unemployed",
-                        "score": 2,
-                        "amount": 50
+                        "dananow-keys": "Unemployed",
+                        "dananow-score": 2,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "Student",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Student",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Retired",
-                        "score": 1,
-                        "amount": 0
+                        "dananow-keys": "Retired",
+                        "dananow-score": 1,
+                        "dananow-amount": 0
                     }
                 ]
             },
             {
-                "title": "Employer",
-                "type": "option",
-                "options": [
+                "dananow-title": "Industry",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Administrative/Office Support",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Administrative/Office Support",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Arts/Entertainment/Media",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Arts/Entertainment/Media",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Business/Finance",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Business/Finance",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Education/Training",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Education/Training",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Engineering/Architecture",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Engineering/Architecture",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Healthcare/Medical",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Healthcare/Medical",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Hospitality/Tourism",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Hospitality/Tourism",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Information Technology",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Information Technology",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Legal",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Legal",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Manufacturing/Production",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Manufacturing/Production",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Sales/Marketing",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Sales/Marketing",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Science/Research",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Science/Research",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Skilled Trades",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Skilled Trades",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Other",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Other",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Position",
-                "type": "option",
-                "options": [
+                "dananow-title": "Position",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Manager/Supervisor",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Manager/Supervisor",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Assistant/Associate",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Assistant/Associate",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Specialist/Analyst",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Specialist/Analyst",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Technician",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Technician",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Engineer",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Engineer",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Nurse",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Nurse",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Doctor/Physician",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Doctor/Physician",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Teacher/Professor",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Teacher/Professor",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Sales Representative",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Sales Representative",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Consultant",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Consultant",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Accountant",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Accountant",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Artist/Designer",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Artist/Designer",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Writer/Editor",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Writer/Editor",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Driver",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Driver",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "Other",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "Other",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     }
                 ]
             },
             {
-                "title": "Years of Employment",
-                "type": "option",
-                "options": [
+                "dananow-title": "Years of Employment",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "< 1 Year",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "< 1 Year",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "1 - 3 Years",
-                        "score": 2,
-                        "amount": 100
+                        "dananow-keys": "1 - 3 Years",
+                        "dananow-score": 2,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "3 - 5 Years",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "3 - 5 Years",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "5 - 10 Years",
-                        "score": 4,
-                        "amount": 200
+                        "dananow-keys": "5 - 10 Years",
+                        "dananow-score": 4,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": ">10 Years",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": ">10 Years",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Average Monthly Income($)",
-                "type": "option",
-                "options": [
+                "dananow-title": "Monthly Income ($)",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "< 500 USD",
-                        "score": 1,
-                        "amount": 5
+                        "dananow-keys": "< 500 USD",
+                        "dananow-score": 1,
+                        "dananow-amount": 5
                     },
                     {
-                        "keys": "500 - 1000 USD",
-                        "score": 2,
-                        "amount": 100
+                        "dananow-keys": "500 - 1000 USD",
+                        "dananow-score": 2,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "1000 - 2000 USD",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "1000 - 2000 USD",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "2000 - 5000 USD",
-                        "score": 4,
-                        "amount": 200
+                        "dananow-keys": "2000 - 5000 USD",
+                        "dananow-score": 4,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": ">5000 USD",
-                        "score": 5,
-                        "amount": 250
+                        "dananow-keys": ">5000 USD",
+                        "dananow-score": 5,
+                        "dananow-amount": 250
                     }
                 ]
             }
         ]
     },
     {
-        "page": "Residential Information",
-        "option": [
+        "dananow-page": "Residential Information",
+        "dananow-content": [
             {
-                "title": "Housing Type",
-                "type": "option",
-                "options": [
+                "dananow-title": "Housing Type",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Renting",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "Renting",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "Owning Property",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Owning Property",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Living with Family",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "Living with Family",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     }
                 ]
             },
             {
-                "title": "Length of Residence",
-                "type": "option",
-                "options": [
+                "dananow-title": "Length of Residence",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Less than 6 months",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "Less than 6 months",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "6 months to 1 year",
-                        "score": 2,
-                        "amount": 100
+                        "dananow-keys": "6 months to 1 year",
+                        "dananow-score": 2,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "1 year to 3 years",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "1 year to 3 years",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "3 years to 5 years",
-                        "score": 4,
-                        "amount": 200
+                        "dananow-keys": "3 years to 5 years",
+                        "dananow-score": 4,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "More than 5 years",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "More than 5 years",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Monthly Rent / Mortgage Payment Amount($)",
-                "type": "option",
-                "options": [
+                "dananow-title": "Monthly Rent / Mortgage Payment Amount($)",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Less than $500",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Less than $500",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "$500 - $1,000",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "$500 - $1,000",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "$1,000 - $1,500",
-                        "score": 2,
-                        "amount": 100
+                        "dananow-keys": "$1,000 - $1,500",
+                        "dananow-score": 2,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "$1,500 - $2,000",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "$1,500 - $2,000",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "$2,000 - $2,500",
-                        "score": 4,
-                        "amount": 200
+                        "dananow-keys": "$2,000 - $2,500",
+                        "dananow-score": 4,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "$2,500 or more",
-                        "score": 5,
-                        "amount": 250
+                        "dananow-keys": "$2,500 or more",
+                        "dananow-score": 5,
+                        "dananow-amount": 250
                     }
                 ]
             },
             {
-                "title": "Property Appraisal Value (if applicable)",
-                "type": "option",
-                "options": [
+                "dananow-title": "Property Appraisal Value (if applicable)",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Not applicable",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Not applicable",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Less than $100,000",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "Less than $100,000",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "$100,000 - $200,000",
-                        "score": 2,
-                        "amount": 100
+                        "dananow-keys": "$100,000 - $200,000",
+                        "dananow-score": 2,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "$200,000 - $300,000",
-                        "score": 3,
-                        "amount": 150
+                        "dananow-keys": "$200,000 - $300,000",
+                        "dananow-score": 3,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "$300,000 - $500,000",
-                        "score": 4,
-                        "amount": 200
+                        "dananow-keys": "$300,000 - $500,000",
+                        "dananow-score": 4,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "$500,000 or more",
-                        "score": 5,
-                        "amount": 250
+                        "dananow-keys": "$500,000 or more",
+                        "dananow-score": 5,
+                        "dananow-amount": 250
                     }
                 ]
             }
         ]
     },
     {
-        "page": "Financial Status",
-        "option": [
+        "dananow-page": "Financial Status",
+        "dananow-content": [
             {
-                "title": "Regular Expenses (Monthly)",
-                "type": "option",
-                "options": [
+                "dananow-title": "Regular Expenses (Monthly)",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Living Expenses (Food, Household Items, etc.)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Living Expenses (Food, Household Items, etc.)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Utilities (Water, Electricity, etc.)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Utilities (Water, Electricity, etc.)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Transportation Expenses",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Transportation Expenses",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Communication Expenses (Phone, Internet, etc.)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Communication Expenses (Phone, Internet, etc.)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Debt Repayments (Credit Cards, Loans, etc.)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Debt Repayments (Credit Cards, Loans, etc.)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Tuition Fees (if applicable)",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Tuition Fees (if applicable)",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Other",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Other",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     }
                 ]
             },
             {
-                "title": "Debt Situation",
-                "type": "option",
-                "options": [
+                "dananow-title": "Debt Situation",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Total Credit Card Debt",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Total Credit Card Debt",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Loan Balances",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Loan Balances",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Other Liabilities",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Other Liabilities",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Savings Amount($)",
-                "type": "number",
+                "dananow-title": "Savings Amount($)",
+                "dananow-type": "number",
                 "format": "^.{1,7}$"
             },
             {
-                "title": "Amount of Investments($)",
-                "type": "number",
+                "dananow-title": "Amount of Investments($)",
+                "dananow-type": "number",
                 "format": "^.{1,7}$"
             }
         ]
     },
     {
-        "page": "Credit Card Usage",
-        "option": [
+        "dananow-page": "Credit Card Usage",
+        "dananow-content": [
             {
-                "title": "Number of Credit Cards Owned",
-                "type": "option",
-                "options": [
+                "dananow-title": "Number of Credit Cards Owned",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "None",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "None",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     },
                     {
-                        "keys": "1",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "1",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "2",
-                        "score": 4,
-                        "amount": 150
+                        "dananow-keys": "2",
+                        "dananow-score": 4,
+                        "dananow-amount": 150
                     },
                     {
-                        "keys": "3",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "3",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "4",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "4",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "5 or more",
-                        "score": 1,
-                        "amount": 50
+                        "dananow-keys": "5 or more",
+                        "dananow-score": 1,
+                        "dananow-amount": 50
                     }
                 ]
             },
             {
-                "title": "Credit Limits on Each Card",
-                "type": "option",
-                "options": [
+                "dananow-title": "Credit Limits on Each Card",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "None",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "None",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "Less than $1,000",
-                        "score": 1,
-                        "amount": 160
+                        "dananow-keys": "Less than $1,000",
+                        "dananow-score": 1,
+                        "dananow-amount": 160
                     },
                     {
-                        "keys": "$1,000 - $5,000",
-                        "score": 2,
-                        "amount": 300
+                        "dananow-keys": "$1,000 - $5,000",
+                        "dananow-score": 2,
+                        "dananow-amount": 300
                     },
                     {
-                        "keys": "$5,000 - $10,000",
-                        "score": 3,
-                        "amount": 800
+                        "dananow-keys": "$5,000 - $10,000",
+                        "dananow-score": 3,
+                        "dananow-amount": 800
                     },
                     {
-                        "keys": "$10,000 - $20,000",
-                        "score": 4,
-                        "amount": 1000
+                        "dananow-keys": "$10,000 - $20,000",
+                        "dananow-score": 4,
+                        "dananow-amount": 1000
                     },
                     {
-                        "keys": "$20,000 or more",
-                        "score": 5,
-                        "amount": 2000
+                        "dananow-keys": "$20,000 or more",
+                        "dananow-score": 5,
+                        "dananow-amount": 2000
                     }
                 ]
             },
             {
-                "title": "Recent History of Late Payments",
-                "type": "option",
-                "options": [
+                "dananow-title": "Recent History of Late Payments",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yes",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Instances of Exceeding Credit Limits",
-                "type": "option",
-                "options": [
+                "dananow-title": "Instances of Exceeding Credit Limits",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Yes",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "No",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "No",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     }
                 ]
             }
         ]
     },
     {
-        "page": "Loan Repayment Records",
-        "option": [
+        "dananow-page": "Loan Repayment Records",
+        "dananow-content": [
             {
-                "title": "Recent Loan Repayment History",
-                "type": "option",
-                "options": [
+                "dananow-title": "Recent Loan Repayment History",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Good",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "Good",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Fair",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "Fair",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     },
                     {
-                        "keys": "Poor",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Poor",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     }
                 ]
             },
             {
-                "title": "Instances of Late Loan Payment",
-                "type": "option",
-                "options": [
+                "dananow-title": "Instances of Late Loan Payment",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     },
                     {
-                        "keys": "Yes",
-                        "score": 3,
-                        "amount": 100
+                        "dananow-keys": "Yes",
+                        "dananow-score": 3,
+                        "dananow-amount": 100
                     }
                 ]
             }
         ]
     },
     {
-        "page": "Other Credit-related Information",
-        "option": [
+        "dananow-page": "Other Credit-related Information",
+        "dananow-content": [
             {
-                "title": "History of Bankruptcy Filings",
-                "type": "option",
-                "options": [
+                "dananow-title": "History of Bankruptcy Filings",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yes",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Records of Judgments",
-                "type": "option",
-                "options": [
+                "dananow-title": "Records of Judgments",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yes",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Records of Default",
-                "type": "option",
-                "options": [
+                "dananow-title": "Records of Default",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yes",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             },
             {
-                "title": "Records of Fraud",
-                "type": "option",
-                "options": [
+                "dananow-title": "Records of Fraud",
+                "dananow-type": "option",
+                "dananow-options": [
                     {
-                        "keys": "Yes",
-                        "score": 0,
-                        "amount": 0
+                        "dananow-keys": "Yes",
+                        "dananow-score": 0,
+                        "dananow-amount": 0
                     },
                     {
-                        "keys": "No",
-                        "score": 5,
-                        "amount": 200
+                        "dananow-keys": "No",
+                        "dananow-score": 5,
+                        "dananow-amount": 200
                     }
                 ]
             }
